@@ -1,4 +1,4 @@
-# Quill - A Modern Fullstack SaaS-Platform
+# Forked from: Quill - A Modern Fullstack SaaS-Platform
 
 Built with the Next.js 13.5 App Router, tRPC, TypeScript, Prisma & Tailwind
 
@@ -33,6 +33,15 @@ To get started with this project, run
 ```
 
 and copy the .env.example variables into a separate .env file, fill them out & and that's all you need to get started!
+
+## Notes
+1. Run `npm install`
+2. Run `npm run build`
+3. You may run into this issue: https://github.com/shadcn-ui/ui/issues/1595. Simply run:
+```bash
+npm remove @radix-ui/react-dialog
+npm install @radix-ui/react-dialog@1.0.4 --exact
+```
 
 
 ## Acknowledgements
